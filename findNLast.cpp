@@ -1,4 +1,4 @@
-int findNLast(Node* head, int n){
+int findNLast(Node* head,int n){
    int length=1;
     Node* first = head;
     Node* second = head;
