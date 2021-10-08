@@ -9,6 +9,7 @@ static LinkList deleteBeg(LinkList head)
   head=tmp.next;
   return head;
 }
+//delete End :
 static LinkList deleteEnd(LinkList head)
 {
   if(head==null)
