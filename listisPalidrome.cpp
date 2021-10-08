@@ -15,7 +15,7 @@ class Result {
       tmp/=10;
     }
     if(num==rev)
-      return 1;
+     { return 1; 
     return 0;
   }
 }
