@@ -13,7 +13,7 @@ class Result {
     int l=1;
     LinkList tmp=head.next;
     while(tmp!=head){
-      tmp=tmp.next;l++;
+      tmp=tmp.next; l++;
     }
     return l;
   }
