@@ -11,7 +11,7 @@ static int isCircular(LinkList head)
   LinkList tmp=head.next;
   while(tmp!=head)
   {
-    if(tmp==null)
+    if(tmp ==null)
       return 0;
     tmp=tmp.next;
   }
