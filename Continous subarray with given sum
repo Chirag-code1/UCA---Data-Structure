@@ -20,7 +20,7 @@ class Result
     
             if (map.containsKey(prefixSum - sum)) 
             {
-                System.out.print((map.get(prefixSum - sum) + 1) + " " + j);
+                System.out.println((map.get(prefixSum - sum) + 1) + " " + j);
                 return; 
             }
             
