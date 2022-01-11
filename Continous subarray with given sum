@@ -27,7 +27,7 @@ class Result
             map.put(prefixSum, j); 
         }
         
-        System.out.print(-1);
+        System.out.println(-1);
     }
 }
 
