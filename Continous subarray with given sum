@@ -14,7 +14,7 @@ class Result
     
             if (prefixSum == sum) 
             { 
-                System.out.print(0 + " " + j);
+                System.out.println(0 + " " + j);
                 return; 
             } 
     
