@@ -22,6 +22,6 @@ int findNLast(Node* head,int n){
             second = second->next;
         }
         
-        return first->data;
+        return first->data; //will rerurn nth from last
   
 }
