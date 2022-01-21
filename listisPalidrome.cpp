@@ -1,6 +1,6 @@
 class Result {
   static int checkPalindrome(Node head) {
-    if(head==null)
+    if(head==null) // or, (!head)
       return 0;
     int num=0;
     while(head!=null)
